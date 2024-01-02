@@ -1,2 +1,5 @@
 # odin-basic-informational-site
-Backend built with NodeJS
+A very basic backend built with NodeJS.
+Not content. Just routing.
+
+livedemo : https://odin-basic-informational-site.wongyc-66.repl.co/

@@ -2,7 +2,8 @@ const http = require('node:http');
 const path = require('node:path');
 const fs = require('node:fs');
 const { getDefaultHighWaterMark } = require('node:stream');
-const hostname = '127.0.0.1';
+const hostname = '0.0.0.0'; // for replit to work
+// const hostname = '127.0.0.1';
 const port = 8080;
 const server = http.createServer((req, res) => {
 
